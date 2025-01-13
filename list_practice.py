@@ -43,3 +43,15 @@ print('The first position ', position)  # 2
 animals_con.insert(2, 'goat')  # inserts goat at index 2
 # ['cat', 'fish', 'goat', 'rabbit', 'dog', 'cat', 'dog', 'fish', 'rabbit']
 print(animals_con)
+animals_con.remove('rabbit')  # removes rabbit
+# ['cat', 'fish', 'goat', 'dog', 'cat', 'dog', 'fish', 'rabbit']
+print(animals_con)
+animals_con.pop(7)  # removes the last element
+# ['cat', 'fish', 'goat', 'dog', 'cat', 'dog', 'fish']
+print(animals_con)
+animals_con.reverse()  # reverses the list
+# ['fish', 'dog', 'cat', 'dog', 'goat', 'fish', 'cat']
+print(animals_con)
+animals_con.sort()  # sorts the list
+# ['cat', 'cat', 'dog', 'dog', 'fish', 'fish', 'goat']
+print(animals_con)
