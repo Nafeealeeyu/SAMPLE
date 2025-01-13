@@ -7,3 +7,4 @@ plt.title('REAL TIME ANALYSIS')
 plt.xlabel('X Axis')
 plt.ylabel('Y Axis')
 plt.show()
+
